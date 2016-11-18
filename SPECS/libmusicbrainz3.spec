@@ -7,7 +7,7 @@
 Summary: Library for accessing MusicBrainz servers
 Name: libmusicbrainz3
 Version: 3.0.3
-Release: 7%{?dist}
+Release: 8%{?dist}
 License: LGPLv2+
 Group: System Environment/Libraries
 URL: http://www.musicbrainz.org/
@@ -90,6 +90,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri Nov 18 2016 Ricardo Arguello <rarguello@deskosproject.org> - 3.0.3-8
+- Rebuilt for DeskOS
+
 * Sat Aug 03 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 3.0.3-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
 
